@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="Manage Bus">
+        <menu>
+            <item
+                android:id="@+id/add_bus"
+                android:icon="@drawable/add_bus"
+                android:title="Add Bus" />
+            <item
+                android:id="@+id/delete_bus"
+                android:icon="@drawable/delete"
+                android:title="Delete Bus" />
+        </menu>
+    </item>
+    <item android:title="Manage Conductors">
+        <menu>
+            <item
+                android:id="@+id/add_user"
+                android:icon="@drawable/add_person"
+                android:title="Add Conductor" />
+            <item
+                android:id="@+id/delete_user"
+                android:icon="@drawable/delete"
+                android:title="Delete Conductor" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/admin_map"
+        android:icon="@drawable/baseline_map_white_18dp"
+        android:title="Maps" />
+
+</menu>
